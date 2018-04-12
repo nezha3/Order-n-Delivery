@@ -13,6 +13,9 @@
 		17D3F464207F9AC1002BB867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F462207F9AC1002BB867 /* Main.storyboard */; };
 		17D3F466207F9AC2002BB867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F465207F9AC2002BB867 /* Assets.xcassets */; };
 		17D3F469207F9AC2002BB867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F467207F9AC2002BB867 /* LaunchScreen.storyboard */; };
+		17D3F472207F9B46002BB867 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3F471207F9B46002BB867 /* CoreData.framework */; };
+		17D3F474207F9B55002BB867 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3F473207F9B55002BB867 /* CoreML.framework */; };
+		17D3F476207F9B68002BB867 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3F475207F9B68002BB867 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		17D3F465207F9AC2002BB867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D3F468207F9AC2002BB867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D3F46A207F9AC2002BB867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D3F471207F9B46002BB867 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17D3F473207F9B55002BB867 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		17D3F475207F9B68002BB867 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D3F476207F9B68002BB867 /* JavaScriptCore.framework in Frameworks */,
+				17D3F474207F9B55002BB867 /* CoreML.framework in Frameworks */,
+				17D3F472207F9B46002BB867 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			children = (
 				17D3F45B207F9AC1002BB867 /* twitterDepressionDetect */,
 				17D3F45A207F9AC1002BB867 /* Products */,
+				17D3F470207F9B46002BB867 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +75,16 @@
 				17D3F46A207F9AC2002BB867 /* Info.plist */,
 			);
 			path = twitterDepressionDetect;
+			sourceTree = "<group>";
+		};
+		17D3F470207F9B46002BB867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D3F475207F9B68002BB867 /* JavaScriptCore.framework */,
+				17D3F473207F9B55002BB867 /* CoreML.framework */,
+				17D3F471207F9B46002BB867 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
