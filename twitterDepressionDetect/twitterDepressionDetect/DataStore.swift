@@ -7,7 +7,22 @@
 //
 
 import UIKit
+import CoreData
 
-class DataStore: DataCore {
-
+class DataStore: NSObject {
+    //properties
+    
+    //init
+    
+    
+    //method: store account name
+    
+    
+    //method: store result and date
+    
+    
+    //method: update account name
+    
+    
+    //method: update result
 }
