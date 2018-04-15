@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "detective.png",
+      "filename" : "dashboard.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "detective-2.png",
+      "filename" : "dashboard-2.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "detective-3.png",
+      "filename" : "dashboard-3.png",
       "scale" : "3x"
     }
   ],
