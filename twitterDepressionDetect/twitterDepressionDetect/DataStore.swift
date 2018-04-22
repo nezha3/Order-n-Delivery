@@ -22,14 +22,31 @@ class DataStore: NSObject {
         self.lastPostDate = time;
     }
     
-    //method: store account name
+    //method: get account name
+    func getAccount(childName: String) -> String {
+        let name = "";
+        return name;
+    }
     
+    //method: store account name
+    func setAccount(childName: String, accountAddress: String, postDate: Date) -> Bool {
+        return true;
+    }
     
     //method: store result and date
-    
+    func setResult(result: int_fast8_t, childName: String) -> Bool {
+        return true;
+    }
     
     //method: update account name
-    
+    func updateAccount(childName: String, accountAddress: String, postDate: Date) -> Bool {
+        return true;
+    }
     
     //method: update result
+    func updateResult(result: int_fast8_t, childName: String) -> Bool {
+        return true;
+    }
+    
+    
 }
