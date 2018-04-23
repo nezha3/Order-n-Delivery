@@ -25,4 +25,14 @@ class SentiAnalysis: NSObject {
         return self.result;
     }
     
+    //method to compute the risk of sentiment
+    func computeSenti() -> int_fast8_t {
+        return 1;
+    }
+    
+    //method to check if sentiment result is valid currently
+    func checkResult() -> Bool {
+        var _ : Date;
+        return true;
+    }
 }
