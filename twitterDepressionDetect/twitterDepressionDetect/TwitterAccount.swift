@@ -31,4 +31,9 @@ class TwitterAccount: NSObject {
         }
         return post;
     }
+    
+    //method: check if having new post
+    func checkNewPost() -> Bool {
+        return true;
+    }
 }

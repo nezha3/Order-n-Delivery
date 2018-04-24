@@ -38,15 +38,5 @@ class DataStore: NSObject {
         return true;
     }
     
-    //method: update account name
-    func updateAccount(childName: String, accountAddress: String, postDate: Date) -> Bool {
-        return true;
-    }
-    
-    //method: update result
-    func updateResult(result: int_fast8_t, childName: String) -> Bool {
-        return true;
-    }
-    
     
 }
