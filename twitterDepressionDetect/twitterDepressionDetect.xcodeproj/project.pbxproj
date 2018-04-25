@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1716B8052090036A00EF9982 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716B8042090036A00EF9982 /* Notification.swift */; };
 		1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */; };
 		1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */; };
 		1745D4F62080DF06007AEA4A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F52080DF06007AEA4A /* DataStore.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1716B8042090036A00EF9982 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAccount.swift; sourceTree = "<group>"; };
 		1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiAnalysis.swift; sourceTree = "<group>"; };
 		1745D4F52080DF06007AEA4A /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				1745D5182080E412007AEA4A /* AppData.xcdatamodeld */,
 				17D3F467207F9AC2002BB867 /* LaunchScreen.storyboard */,
 				17D3F46A207F9AC2002BB867 /* Info.plist */,
+				1716B8042090036A00EF9982 /* Notification.swift */,
 			);
 			path = twitterDepressionDetect;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				17D3F461207F9AC1002BB867 /* SecondViewController.swift in Sources */,
 				1745D4F62080DF06007AEA4A /* DataStore.swift in Sources */,
 				1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */,
+				1716B8052090036A00EF9982 /* Notification.swift in Sources */,
 				1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */,
 				17D3F45D207F9AC1002BB867 /* AppDelegate.swift in Sources */,
 				17D3F45F207F9AC1002BB867 /* FirstViewController.swift in Sources */,
