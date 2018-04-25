@@ -9,5 +9,8 @@
 import UIKit
 
 class Notification: NSObject {
-
+    //give notification when red alert
+    
+    //give app notification when green alert
+    
 }

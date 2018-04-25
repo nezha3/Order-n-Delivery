@@ -27,6 +27,10 @@ class SentiAnalysis: NSObject {
     
     //method to compute the risk of sentiment
     func computeSenti() -> int_fast8_t {
+        
+        //store risk
+        
+        
         return 1;
     }
     
