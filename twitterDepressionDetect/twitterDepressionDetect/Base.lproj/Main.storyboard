@@ -65,16 +65,16 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qUP-4x-4Pr">
-                                        <rect key="frame" x="53.5" y="0.0" width="106" height="104"/>
+                                        <rect key="frame" x="2" y="0.0" width="209" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="106" height="104"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="209" height="114"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
-                                        <size key="customSize" width="106" height="104"/>
+                                        <size key="customSize" width="209" height="114"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="f8B-rc-ppi">
-                                        <rect key="frame" x="0.0" y="114" width="100" height="104"/>
+                                        <rect key="frame" x="0.0" y="124" width="100" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
@@ -83,7 +83,7 @@
                                         <size key="customSize" width="100" height="104"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3R1-1E-0gm">
-                                        <rect key="frame" x="110" y="114" width="100" height="104"/>
+                                        <rect key="frame" x="110" y="124" width="100" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
