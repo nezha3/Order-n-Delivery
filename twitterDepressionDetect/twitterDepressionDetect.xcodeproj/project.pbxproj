@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170A91A1209F3E3200C1A3F3 /* ShowRiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */; };
+		170A91A3209F4CCA00C1A3F3 /* ShowRiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A91A2209F4CCA00C1A3F3 /* ShowRiskViewController.swift */; };
 		1716B8052090036A00EF9982 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716B8042090036A00EF9982 /* Notification.swift */; };
 		1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */; };
 		1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */; };
@@ -16,7 +16,6 @@
 		17D3F45D207F9AC1002BB867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3F45C207F9AC1002BB867 /* AppDelegate.swift */; };
 		17D3F45F207F9AC1002BB867 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3F45E207F9AC1002BB867 /* FirstViewController.swift */; };
 		17D3F461207F9AC1002BB867 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3F460207F9AC1002BB867 /* SecondViewController.swift */; };
-		17D3F464207F9AC1002BB867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F462207F9AC1002BB867 /* Main.storyboard */; };
 		17D3F466207F9AC2002BB867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F465207F9AC2002BB867 /* Assets.xcassets */; };
 		17D3F469207F9AC2002BB867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D3F467207F9AC2002BB867 /* LaunchScreen.storyboard */; };
 		17D3F472207F9B46002BB867 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3F471207F9B46002BB867 /* CoreData.framework */; };
@@ -25,7 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRiskViewController.swift; sourceTree = "<group>"; };
+		170A91A2209F4CCA00C1A3F3 /* ShowRiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRiskViewController.swift; sourceTree = "<group>"; };
+		170A91A4209F548E00C1A3F3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = twitterDepressionDetect/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		1716B8042090036A00EF9982 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAccount.swift; sourceTree = "<group>"; };
 		1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiAnalysis.swift; sourceTree = "<group>"; };
@@ -35,7 +35,6 @@
 		17D3F45C207F9AC1002BB867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D3F45E207F9AC1002BB867 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		17D3F460207F9AC1002BB867 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		17D3F463207F9AC1002BB867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17D3F465207F9AC2002BB867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D3F468207F9AC2002BB867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D3F46A207F9AC2002BB867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,14 +77,14 @@
 		17D3F45B207F9AC1002BB867 /* twitterDepressionDetect */ = {
 			isa = PBXGroup;
 			children = (
-				170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */,
+				170A91A2209F4CCA00C1A3F3 /* ShowRiskViewController.swift */,
+				170A91A4209F548E00C1A3F3 /* Main.storyboard */,
 				17D3F45C207F9AC1002BB867 /* AppDelegate.swift */,
 				17D3F45E207F9AC1002BB867 /* FirstViewController.swift */,
 				1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */,
 				1745D4F52080DF06007AEA4A /* DataStore.swift */,
 				1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */,
 				17D3F460207F9AC1002BB867 /* SecondViewController.swift */,
-				17D3F462207F9AC1002BB867 /* Main.storyboard */,
 				17D3F465207F9AC2002BB867 /* Assets.xcassets */,
 				1745D5182080E412007AEA4A /* AppData.xcdatamodeld */,
 				17D3F467207F9AC2002BB867 /* LaunchScreen.storyboard */,
@@ -165,7 +164,6 @@
 			files = (
 				17D3F469207F9AC2002BB867 /* LaunchScreen.storyboard in Resources */,
 				17D3F466207F9AC2002BB867 /* Assets.xcassets in Resources */,
-				17D3F464207F9AC1002BB867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +177,7 @@
 				1745D51A2080E412007AEA4A /* AppData.xcdatamodeld in Sources */,
 				17D3F461207F9AC1002BB867 /* SecondViewController.swift in Sources */,
 				1745D4F62080DF06007AEA4A /* DataStore.swift in Sources */,
-				170A91A1209F3E3200C1A3F3 /* ShowRiskViewController.swift in Sources */,
+				170A91A3209F4CCA00C1A3F3 /* ShowRiskViewController.swift in Sources */,
 				1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */,
 				1716B8052090036A00EF9982 /* Notification.swift in Sources */,
 				1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */,
@@ -191,14 +189,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17D3F462207F9AC1002BB867 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17D3F463207F9AC1002BB867 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17D3F467207F9AC2002BB867 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
