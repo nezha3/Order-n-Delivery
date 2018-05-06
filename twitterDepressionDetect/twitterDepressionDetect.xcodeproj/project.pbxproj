@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170A91A1209F3E3200C1A3F3 /* ShowRiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */; };
 		1716B8052090036A00EF9982 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716B8042090036A00EF9982 /* Notification.swift */; };
 		1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */; };
 		1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRiskViewController.swift; sourceTree = "<group>"; };
 		1716B8042090036A00EF9982 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAccount.swift; sourceTree = "<group>"; };
 		1745D4F32080DAF7007AEA4A /* SentiAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiAnalysis.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		17D3F45B207F9AC1002BB867 /* twitterDepressionDetect */ = {
 			isa = PBXGroup;
 			children = (
+				170A91A0209F3E3200C1A3F3 /* ShowRiskViewController.swift */,
 				17D3F45C207F9AC1002BB867 /* AppDelegate.swift */,
 				17D3F45E207F9AC1002BB867 /* FirstViewController.swift */,
 				1745D4F12080D8D8007AEA4A /* TwitterAccount.swift */,
@@ -176,6 +179,7 @@
 				1745D51A2080E412007AEA4A /* AppData.xcdatamodeld in Sources */,
 				17D3F461207F9AC1002BB867 /* SecondViewController.swift in Sources */,
 				1745D4F62080DF06007AEA4A /* DataStore.swift in Sources */,
+				170A91A1209F3E3200C1A3F3 /* ShowRiskViewController.swift in Sources */,
 				1745D4F42080DAF7007AEA4A /* SentiAnalysis.swift in Sources */,
 				1716B8052090036A00EF9982 /* Notification.swift in Sources */,
 				1745D4F22080D8D8007AEA4A /* TwitterAccount.swift in Sources */,

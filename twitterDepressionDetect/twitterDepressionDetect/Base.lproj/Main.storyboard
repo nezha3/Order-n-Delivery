@@ -55,17 +55,33 @@
                     </view>
                     <navigationItem key="navigationItem" title="Children" largeTitleDisplayMode="always" id="0YQ-OO-3fh"/>
                     <connections>
-                        <segue destination="jDG-yI-M5z" kind="showDetail" identifier="showMentalPanel" id="bEH-NU-NAZ"/>
+                        <segue destination="jDG-yI-M5z" kind="showDetail" identifier="showMentalPanel" id="s69-n8-gYD"/>
+                        <segue destination="SE2-iV-NLE" kind="showDetail" identifier="addChild" id="cRs-NN-Ag5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1593" y="-322"/>
         </scene>
+        <!--Child Details View Controller-->
+        <scene sceneID="WCt-iJ-TmH">
+            <objects>
+                <viewController id="SE2-iV-NLE" customClass="ChildDetailsViewController" customModule="twitterDepressionDetect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n5r-lR-5zZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uLO-Wb-iTo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWZ-Ih-HsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2590" y="-1011"/>
+        </scene>
         <!--Mental Panel-->
         <scene sceneID="jmT-QQ-7Az">
             <objects>
-                <viewController title="Mental Panel" id="jDG-yI-M5z" sceneMemberID="viewController">
+                <viewController title="Mental Panel" id="jDG-yI-M5z" customClass="ShowRiskViewController" customModule="twitterDepressionDetect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LU9-wU-Y38">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agq-Vj-ozk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2420" y="-322"/>
+            <point key="canvasLocation" x="2590" y="-248"/>
         </scene>
         <!--Settings-->
         <scene sceneID="wg7-f3-ORb">
@@ -115,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="1593" y="507"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Settings-->
         <scene sceneID="jgq-ng-eg2">
             <objects>
-                <viewController id="Mri-Pb-zzg" sceneMemberID="viewController">
+                <viewController title="Detail Settings" id="Mri-Pb-zzg" customClass="DetailsOfSettingViewController" customModule="twitterDepressionDetect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVy-sq-54F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
