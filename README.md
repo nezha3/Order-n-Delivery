@@ -1,2 +1,2 @@
-# sentimentAnalysisForTwitterApp
-iPhone app for detecting depressive disorder
+# Punctuation Dictionary
+A small iOS application for punctuation dictionary. 
